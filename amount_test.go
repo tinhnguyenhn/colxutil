@@ -1,14 +1,15 @@
 // Copyright (c) 2013, 2014 The btcsuite developers
+// Copyright (c) 2016 The Dash developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil_test
+package godashutil_test
 
 import (
 	"math"
 	"testing"
 
-	. "github.com/btcsuite/btcutil"
+	. "github.com/dashpay/godashutil"
 )
 
 func TestAmountCreation(t *testing.T) {

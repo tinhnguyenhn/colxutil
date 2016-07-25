@@ -1,17 +1,18 @@
 // Copyright (c) 2013, 2014 The btcsuite developers
+// Copyright (c) 2016 The Dash developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil
+package godashutil
 
 import (
 	"bytes"
 	"errors"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil/base58"
+	"github.com/dashpay/godash/btcec"
+	"github.com/dashpay/godash/chaincfg"
+	"github.com/dashpay/godash/wire"
+	"github.com/dashpay/godashutil/base58"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

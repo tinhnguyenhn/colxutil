@@ -1,4 +1,5 @@
 // Copyright (c) 2014 The btcsuite developers
+// Copyright (c) 2016 The Dash developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,7 +8,7 @@ package base58_test
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcutil/base58"
+	"github.com/dashpay/godashutil/base58"
 )
 
 // This example demonstrates how to decode modified base58 encoded data.

@@ -1,17 +1,18 @@
 // Copyright (c) 2013, 2014 The btcsuite developers
+// Copyright (c) 2016 The Dash developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil
+package godashutil
 
 import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil/base58"
 	"github.com/btcsuite/golangcrypto/ripemd160"
+	"github.com/dashpay/godash/btcec"
+	"github.com/dashpay/godash/chaincfg"
+	"github.com/dashpay/godashutil/base58"
 )
 
 var (
