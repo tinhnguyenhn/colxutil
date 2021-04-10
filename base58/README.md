@@ -1,8 +1,8 @@
 base58
 ==========
 
-[![Build Status](http://img.shields.io/travis/dashpay/godashutil.svg)]
-(https://travis-ci.org/dashpay/godashutil) [![ISC License]
+[![Build Status](http://img.shields.io/travis/dashpay/colxutil.svg)]
+(https://travis-ci.org/dashpay/colxutil) [![ISC License]
 (http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://godoc.org/github.com/tinhnguyenhn/colxutil/base58?status.png)]
 (http://godoc.org/github.com/tinhnguyenhn/colxutil/base58)

@@ -1,8 +1,8 @@
 hdkeychain
 ==========
 
-[![Build Status](http://img.shields.io/travis/dashpay/godashutil.svg)]
-(https://travis-ci.org/dashpay/godashutil) [![ISC License]
+[![Build Status](http://img.shields.io/travis/dashpay/colxutil.svg)]
+(https://travis-ci.org/dashpay/colxutil) [![ISC License]
 (http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)]
 (http://godoc.org/github.com/tinhnguyenhn/colxutil/hdkeychain)
@@ -26,7 +26,7 @@ report.
   keys
 - Support for custom networks by registering them with chaincfg
 - Obtaining the underlying EC pubkeys, EC privkeys, and associated bitcoin
-  addresses ties in seamlessly with existing btcec and godashutil types which
+  addresses ties in seamlessly with existing btcec and colxutil types which
   provide powerful tools for working with them to do things like sign
   transations and generate payment scripts
 - Uses the btcec package which is highly optimized for secp256k1

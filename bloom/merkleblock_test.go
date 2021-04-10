@@ -11,6 +11,7 @@ import (
 	"testing"
 
 	"github.com/tinhnguyenhn/colxd/wire"
+	"github.com/tinhnguyenhn/colxutil"
 	"github.com/tinhnguyenhn/colxutil/bloom"
 )
 
@@ -28,7 +29,7 @@ func TestMerkleBlock3(t *testing.T) {
 		t.Errorf("TestMerkleBlock3 DecodeString failed: %v", err)
 		return
 	}
-	blk, err := godashutil.NewBlockFromBytes(blockBytes)
+	blk, err := colxutil.NewBlockFromBytes(blockBytes)
 	if err != nil {
 		t.Errorf("TestMerkleBlock3 NewBlockFromBytes failed: %v", err)
 		return

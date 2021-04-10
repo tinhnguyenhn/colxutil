@@ -5,7 +5,7 @@
 
 // +build !appengine
 
-package godashutil
+package colxutil
 
 import (
 	"net"

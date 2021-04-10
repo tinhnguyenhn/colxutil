@@ -1,19 +1,21 @@
-package godashutil_test
+package colxutil_test
 
 import (
 	"fmt"
 	"math"
+
+	"github.com/tinhnguyenhn/colxutil"
 )
 
 func ExampleAmount() {
 
-	a := godashutil.Amount(0)
+	a := colxutil.Amount(0)
 	fmt.Println("Zero Satoshi:", a)
 
-	a = godashutil.Amount(1e8)
+	a = colxutil.Amount(1e8)
 	fmt.Println("100,000,000 Satoshis:", a)
 
-	a = godashutil.Amount(1e5)
+	a = colxutil.Amount(1e5)
 	fmt.Println("100,000 Satoshis:", a)
 	// Output:
 	// Zero Satoshi: 0 BTC
@@ -22,28 +24,28 @@ func ExampleAmount() {
 }
 
 func ExampleNewAmount() {
-	amountOne, err := godashutil.NewAmount(1)
+	amountOne, err := colxutil.NewAmount(1)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 	fmt.Println(amountOne) //Output 1
 
-	amountFraction, err := godashutil.NewAmount(0.01234567)
+	amountFraction, err := colxutil.NewAmount(0.01234567)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 	fmt.Println(amountFraction) //Output 2
 
-	amountZero, err := godashutil.NewAmount(0)
+	amountZero, err := colxutil.NewAmount(0)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 	fmt.Println(amountZero) //Output 3
 
-	amountNaN, err := godashutil.NewAmount(math.NaN())
+	amountNaN, err := colxutil.NewAmount(math.NaN())
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -57,13 +59,13 @@ func ExampleNewAmount() {
 }
 
 func ExampleAmount_unitConversions() {
-	amount := godashutil.Amount(44433322211100)
+	amount := colxutil.Amount(44433322211100)
 
-	fmt.Println("Satoshi to kBTC:", amount.Format(godashutil.AmountKiloBTC))
+	fmt.Println("Satoshi to kBTC:", amount.Format(colxutil.AmountKiloBTC))
 	fmt.Println("Satoshi to BTC:", amount)
-	fmt.Println("Satoshi to MilliBTC:", amount.Format(godashutil.AmountMilliBTC))
-	fmt.Println("Satoshi to MicroBTC:", amount.Format(godashutil.AmountMicroBTC))
-	fmt.Println("Satoshi to Satoshi:", amount.Format(godashutil.AmountSatoshi))
+	fmt.Println("Satoshi to MilliBTC:", amount.Format(colxutil.AmountMilliBTC))
+	fmt.Println("Satoshi to MicroBTC:", amount.Format(colxutil.AmountMicroBTC))
+	fmt.Println("Satoshi to Satoshi:", amount.Format(colxutil.AmountSatoshi))
 
 	// Output:
 	// Satoshi to kBTC: 444.333222111 kBTC

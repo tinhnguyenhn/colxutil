@@ -1,15 +1,15 @@
-godashutil
+colxutil
 ==========
 
-[![Build Status](http://img.shields.io/travis/dashpay/godashutil.svg)]
-(https://travis-ci.org/dashpay/godashutil) [![Coverage Status]
-(http://img.shields.io/coveralls/dashpay/godashutil.svg)]
-(https://coveralls.io/r/dashpay/godashutil?branch=master) [![ISC License]
+[![Build Status](http://img.shields.io/travis/dashpay/colxutil.svg)]
+(https://travis-ci.org/dashpay/colxutil) [![Coverage Status]
+(http://img.shields.io/coveralls/dashpay/colxutil.svg)]
+(https://coveralls.io/r/dashpay/colxutil?branch=master) [![ISC License]
 (http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)]
 (http://godoc.org/github.com/tinhnguyenhn/colxutil)
 
-Package godashutil provides bitcoin-specific convenience functions and types.
+Package colxutil provides bitcoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
 `test_coverage.txt` for the gocov coverage report.  Alternatively, if you are
 running a POSIX OS, you can run the `cov_report.sh` script for a real-time
@@ -49,7 +49,7 @@ verify the signature perform the following:
 
 ## License
 
-Package godashutil is licensed under the [copyfree](http://copyfree.org) ISC
+Package colxutil is licensed under the [copyfree](http://copyfree.org) ISC
 License.
 
 ## Credits

@@ -1,8 +1,8 @@
 coinset
 =======
 
-[![Build Status](http://img.shields.io/travis/dashpay/godashutil.svg)]
-(https://travis-ci.org/dashpay/godashutil) [![ISC License]
+[![Build Status](http://img.shields.io/travis/dashpay/colxutil.svg)]
+(https://travis-ci.org/dashpay/colxutil) [![ISC License]
 (http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)]
 (http://godoc.org/github.com/tinhnguyenhn/colxutil/coinset)
