@@ -9,7 +9,7 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/dashpay/godashutil"
+	. "github.com/tinhnguyenhn/colxutil"
 )
 
 func TestAmountCreation(t *testing.T) {

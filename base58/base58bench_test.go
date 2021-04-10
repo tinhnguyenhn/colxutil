@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/dashpay/godashutil/base58"
+	"github.com/tinhnguyenhn/colxutil/base58"
 )
 
 func BenchmarkBase58Encode(b *testing.B) {

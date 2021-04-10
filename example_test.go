@@ -3,8 +3,6 @@ package godashutil_test
 import (
 	"fmt"
 	"math"
-
-	"github.com/dashpay/godashutil"
 )
 
 func ExampleAmount() {

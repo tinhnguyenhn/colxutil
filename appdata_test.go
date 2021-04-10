@@ -12,8 +12,6 @@ import (
 	"runtime"
 	"testing"
 	"unicode"
-
-	"github.com/dashpay/godashutil"
 )
 
 // TestAppDataDir tests the API for AppDataDir to ensure it gives expected

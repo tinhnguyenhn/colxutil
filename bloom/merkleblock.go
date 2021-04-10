@@ -6,9 +6,8 @@
 package bloom
 
 import (
-	"github.com/dashpay/godash/blockchain"
-	"github.com/dashpay/godash/wire"
-	"github.com/dashpay/godashutil"
+	"github.com/tinhnguyenhn/colxd/blockchain"
+	"github.com/tinhnguyenhn/colxd/wire"
 )
 
 // merkleBlock is used to house intermediate information needed to generate a

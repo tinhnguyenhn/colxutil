@@ -11,8 +11,6 @@ import (
 	"net"
 	"testing"
 	"time"
-
-	"github.com/dashpay/godashutil"
 	//"github.com/davecgh/go-spew/spew"
 )
 

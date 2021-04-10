@@ -10,8 +10,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/dashpay/godash/wire"
-	"github.com/dashpay/godashutil/bloom"
+	"github.com/tinhnguyenhn/colxd/wire"
+	"github.com/tinhnguyenhn/colxutil/bloom"
 )
 
 // This example demonstrates how to create a new bloom filter, add a transaction

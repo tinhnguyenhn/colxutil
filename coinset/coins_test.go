@@ -7,9 +7,8 @@ import (
 	"testing"
 
 	"github.com/btcsuite/fastsha256"
-	"github.com/dashpay/godash/wire"
-	"github.com/dashpay/godashutil"
-	"github.com/dashpay/godashutil/coinset"
+	"github.com/tinhnguyenhn/colxd/wire"
+	"github.com/tinhnguyenhn/colxutil/coinset"
 )
 
 type TestCoin struct {

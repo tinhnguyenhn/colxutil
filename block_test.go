@@ -12,9 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dashpay/godash/wire"
-	"github.com/dashpay/godashutil"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/tinhnguyenhn/colxd/wire"
 )
 
 // TestBlock tests the API for Block.

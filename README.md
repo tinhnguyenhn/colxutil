@@ -7,7 +7,7 @@ godashutil
 (https://coveralls.io/r/dashpay/godashutil?branch=master) [![ISC License]
 (http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)]
-(http://godoc.org/github.com/dashpay/godashutil)
+(http://godoc.org/github.com/tinhnguyenhn/colxutil)
 
 Package godashutil provides bitcoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
@@ -24,7 +24,7 @@ provided.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/dashpay/godashutil
+$ go get -u github.com/tinhnguyenhn/colxutil
 ```
 
 ## GPG Verification Key
